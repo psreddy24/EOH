@@ -1,0 +1,40 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "co.za.eoh"
+    },
+    "jhipsterVersion": "6.10.1",
+    "applicationType": "monolith",
+    "baseName": "eoh_assignment",
+    "packageName": "co.za.eoh",
+    "packageFolder": "co/za/eoh",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Memory",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "OTE1ZjIyZDA0ZjEwMDYwZjA1ZTEzOTg1YjFkYWM4NThlYzZlNzMyYTExOGYzMmFlNTg5MmRkYTY4MTg1ZmZmYzYzYmViYzZiYzFlNTFmOTBmMDQ2NTAxMWJhOTk4ODg3ZDEzZmJkZmRmNWMyZGNmMDFjZGJhNTljZGI4Yzc1YzQ=",
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "angularX",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "creationTimestamp": 1610995783139,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "blueprints": []
+  }
+}
