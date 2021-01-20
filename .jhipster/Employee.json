@@ -1,0 +1,38 @@
+{
+  "name": "Employee",
+  "fields": [
+    {
+      "fieldName": "employeeNumber",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "employedDate",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "terminatedDate",
+      "fieldType": "Instant"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-one",
+      "otherEntityName": "person",
+      "otherEntityRelationshipName": "employee",
+      "relationshipName": "person",
+      "otherEntityField": "id",
+      "ownerSide": true
+    }
+  ],
+  "changelogDate": "20210118185644",
+  "entityTableName": "employee",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}
